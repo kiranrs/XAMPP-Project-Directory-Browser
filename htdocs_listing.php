@@ -5,28 +5,28 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link href="/xampp/themes/freshlime/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <script src="/xampp/themes/freshlime/js/bootstrap.min.js"></script>
-    <script src="/xampp/themes/freshlime/js/jquery-1.11.1.min.js"></script>
-    <link href='/xampp/themes/freshlime/css/font-awesome.min.css' rel='stylesheet'/>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link href='//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet'/>
     <title>Localhost | Welcome XAMPP</title>
     <base target="_blank"/>
     <style>
-        .xampp_head1 {
+	.xampp_head1
+	{
+		
+	border-top: 1px solid #cfcfcf;
+	border-bottom: 1px solid #cfcfcf;
+	background-color: #2a5d84;
+	color: #fff;
 
-            border-top: 1px solid #cfcfcf;
-            border-bottom: 1px solid #cfcfcf;
-            background-color: #2a5d84;
-            color: #fff;
-
-        }
-
-        .project_list {
-            max-height: 500px;
-            height: 400px;
-            overflow-y: auto;
-        }
-
+	}
+	.project_list
+	{
+		max-height: 500px;
+height: 400px;
+overflow-y: auto;
+	}
         .single {
             padding: 30px 15px;
             margin-top: 40px;
@@ -77,14 +77,13 @@
 <body>
 <div class="container single category">
     <div class="row">
-        <h1 class="xampp_head1"><img src="/dashboard/images/xampp-logo.svg" style="height: 1.3em;margin: 15px;"> XAMPP
-            <span>Apache + MariaDB + PHP + Perl</span></h1>
+        <h1 class="xampp_head1"><img src="/dashboard/images/xampp-logo.svg" style="height: 1.3em;margin: 15px;"> XAMPP <span>Apache + MariaDB + PHP + Perl</span></h1>
         <div class="col-sm-4">
 
             <hr/>
             <h4><i class="fa fa-list-ol" aria-hidden="true"></i>
                 Project Lists</h4>
-            <hr/>
+				<hr/>
             <?php
             $htdocs = opendir(".");
             $list = '';
@@ -111,7 +110,7 @@
             <hr/>
             <h4><i class="fa fa-wrench" aria-hidden="true"></i>
                 Tools</h4>
-            <hr/>
+<hr/>
 
             <div>
                 <ol class="list-unstyled">
@@ -125,7 +124,7 @@
 
             <hr/>
             <h4><i class="fa fa-info-circle" aria-hidden="true"></i> Important Links</h4>
-            <hr/>
+<hr/>
 
             <div>
                 <ol class="list-unstyled">
