@@ -11,7 +11,7 @@ This is a small pieces of code that will help you to browse projects inside htdo
 1) Copy **htdocs_listing.php** and replace **index.php** in **installation path to xampp/htdocs/**
 2) Start XAMPP Control panel
 3) Open your favourite browser, and head to **http://localhost**
-4
+
 
 **That's it. Now you can browse projects inside your htdocs**
  
