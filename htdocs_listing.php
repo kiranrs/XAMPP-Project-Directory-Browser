@@ -5,10 +5,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-    <link href='//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet'/>
+    <link href="/themes/v2/assets/css/bootstrap.min.css" rel="stylesheet">
+    <script src="/themes/v2/assets/js/bootstrap.min.js"></script>
+    <script src="/themes/v2/assets/js/jquery-3.5.1.min.js"></script>
+    <link href='/themes/v2/assets/css/font-awesome.min.css' rel='stylesheet'/>
+	<link rel="shortcut icon" href="../favicon.ico" type="image/ico" />
     <title>Localhost | Welcome XAMPP</title>
     <base target="_blank"/>
     <style>
@@ -90,6 +91,7 @@ overflow-y: auto;
 
             while ($project = readdir($htdocs)) {
                 if (is_dir($project) && ($project != "..") && ($project != "."))
+					//if($project == "dashboard" || $project == "dashboard")
                     $list .= '
 <li><a href="../' . $project . '"><i class="fa fa-folder-open-o" aria-hidden="true" style="color: #fbd246;"></i> ' . $project . '</a></li>';
             }
