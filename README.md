@@ -24,13 +24,10 @@ This is a small pieces of code that will help you to browse projects inside htdo
  
  If you're facing any issues while upgrade, Please change **v2** to **v1** in the following lines in header section.
  
- <link href="/themes/v2/assets/css/bootstrap.min.css" rel="stylesheet">
- 
- <script src="/themes/v2/assets/js/bootstrap.min.js"></script>
- 
- <script src="/themes/v2/assets/js/jquery-3.5.1.min.js"></script>
- 
- <link href='/themes/v2/assets/css/font-awesome.min.css' rel='stylesheet'/>
+ <link href="/themes/v2/assets/css/bootstrap.min.css" rel="stylesheet"><br />
+ <script src="/themes/v2/assets/js/bootstrap.min.js"></script><br />
+ <script src="/themes/v2/assets/js/jquery-3.5.1.min.js"></script><br />
+ <link href='/themes/v2/assets/css/font-awesome.min.css' rel='stylesheet'/><br />
  
 
 
