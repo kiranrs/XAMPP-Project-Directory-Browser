@@ -32,7 +32,7 @@ This is a small pieces of code that will help you to browse projects inside htdo
  
  **V-1.0**
  
- # This is a big update. You can delete your existing files safely and replace V 1.0 in your root folder (htdocs). 
+ # This is a BIG UPDATE 1.0
 
 ## What's New
 
@@ -46,6 +46,8 @@ This is a small pieces of code that will help you to browse projects inside htdo
 2) Improved UI, hide default directories inside htdocs, added new icons in Tools section.
 
 ## Installation
+
+You can delete your existing files safely and replace V 1.0 in your root folder (htdocs)
 
 1) Simply clone this script to your htdocs folder or download and extract files.
 2) While opening Filegator filemanager, it'll ask for enter username and password. Default username and password is admin,admin123 respectively. <br/><br/> **Basic configuration** <br/><br/>You may want to change your project folder, so you have to edit Default Local Disk Adapter. The main configuration file is in xpdb/plugins/filemanager/configuration.php. You've to update the line number #88 
