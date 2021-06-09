@@ -4,7 +4,7 @@ This is a small pieces of code that will help you to browse projects inside htdo
 # Prerequisite
 
 1) XAMPP 3 or later
-2) OS: Windows
+2) Operating System: Any OS where [XAMPP](https://www.apachefriends.org/download.html) support.
 
 # Installation
 
